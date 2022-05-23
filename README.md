@@ -7,7 +7,7 @@ Início
 
 ```
 Enquanto Meta de pessoas foi atingida? Faça
-     Calcular as médias e valores a serem exiidos
+     Calcular as médias e valores a serem exibidos
      Exibir os valores calculados anteriormente
 Fim Enquanto
 Enquanto Meta de pessoas não foi atingida? Faça
