@@ -17,4 +17,4 @@ Início
 
 Fim
 
-![Fluxograma Censo Demográfico](https://user-images.githubusercontent.com/69513119/169877309-53d08c0a-0db7-4a93-b2d1-2d8cf9f5c1cf.png)
+![Fluxograma Censo Demográfico](https://user-images.githubusercontent.com/69513119/169900084-aa8421b2-f994-4464-a7c6-51fcee9b5c87.png)
