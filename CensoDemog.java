@@ -8,7 +8,7 @@ public class CensoDemog {
 	double outros=0; 
 	float altura, midh=0, maml=0, migp=0, mediaIDespec, contMidh=0, contMaml=0, contGP=0, contOutros=0, contIdade=0, contIDespec=0;
 		
-        //Utilização da estrutura de repetição For
+        //Utilização do For para contagem e repetição do programa
         for (i=0; i < 1000; i++) {
 		
 	    //Entrada de dados da variável genero
@@ -24,7 +24,7 @@ public class CensoDemog {
             if (idade >= 18 && idade <= 35) {
             contIDespec++;
             }
-            //Função que realiza a soma da variável idade 
+            //Função que realiza a soma da variável idade com a variável igr
             igr = igr + idade;
 	    //Entrada de dados da variável altura
             System.out.println("Qual e a sua altura? ");
@@ -52,7 +52,7 @@ public class CensoDemog {
         midh = midh / contMidh;
         outros = contOutros + 0;
         mediaIDespec = ( contIDespec / contGP ) * 100;
-        //Exibição das informações calculadas anteriormente ao usuário 
+        //Exibição ao usuário das informações calculadas anteriormente, e já devidamente formatadas
         System.out.printf("Media idade do grupo: %f\n", + migp);
         System.out.printf("Media altura das mulheres: %f\n", + maml);
         System.out.printf("Media idade dos homens: %f\n", + midh);
